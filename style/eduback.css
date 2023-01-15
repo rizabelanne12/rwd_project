@@ -1,0 +1,223 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: cursive;
+    line-height: 1.5em;
+}
+
+body
+{
+   background-image: url(../images/sunset2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+   opacity: 5px;
+  
+}
+
+
+h1 
+{
+    color: #ff9c3a;
+    text-decoration:underline;
+}
+
+h3
+{
+    color: rgb(236, 163, 28);   
+}
+
+
+img 
+{
+   max-width: 550px;
+   max-height: 450px;
+}
+
+ .list-style ul
+{
+    color: rgb(244, 188, 86);   
+    list-style-position: inside;  
+}
+
+#list-style 
+{
+    list-style-position: inside; 
+}
+
+
+
+
+.elem
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.jhs 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+   
+}
+
+.shs 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-top: 40px;
+}
+
+
+
+
+.laverdadrian
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+
+@media (max-width: 540px) 
+{
+
+    .elemimg img 
+    {
+        width: 170px;
+        height: 170px;
+    }
+
+    .jhsimg img 
+    {
+        width: 170px;
+        height: 170px;
+    }
+
+
+    .shsimg img
+    {
+        width: 170px;
+        height: 170px;
+    }
+
+    .laverdad img 
+    {
+        width: 170px;
+        height: 170px;
+    }
+    
+    .elem h3 
+    {
+        font-size: 13px;
+    }
+
+    .jhs h3 
+    {
+        font-size: 13px;
+    }
+
+    .shs h3
+    {
+        font-size: 13px;
+    }
+
+    .laverdadrian h3 
+    {
+        font-size: 13px;
+    }
+
+    .elem h1
+    {
+        font-size: 20px;
+    }
+
+    .jhs h1
+    {
+        font-size: 20px;
+    }
+
+    .shs h1
+    {
+        font-size: 20px;
+    }
+
+    .laverdadrian h1
+    {
+        font-size: 20px;
+    }
+
+    .laverdadrian
+    {
+        margin-right: 20px;
+        
+    }
+
+    /* Skills part2 */
+    .skillsimg img 
+    {
+        width: 170px;
+        height: 170px;
+    }
+
+    .hobimg img 
+    {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .skills h3 
+    {
+        font-size: 13px;
+    }
+
+    .hob h3 
+    {
+        font-size: 13px;
+    }
+
+
+    .skills h1
+    {
+        font-size: 20px;
+    }
+
+    .hob h1
+    {
+        font-size: 20px;
+    }
+
+    .hob
+    {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: column-reverse;
+        margin-right: 20px;
+    }
+
+    .skills
+    {
+        margin-left: 10px;
+    }
+
+    
+}
+
+
+

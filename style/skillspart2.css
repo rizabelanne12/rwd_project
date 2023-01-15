@@ -1,0 +1,99 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: cursive;
+    line-height: 1.5em;
+}
+
+body
+{
+   background-image: url(../images/sunset2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+   opacity: 5px;
+  
+}
+
+
+h1 
+{
+    color: #ff9c3a;
+    text-decoration:underline;
+}
+
+h3
+{
+    color: rgb(236, 163, 28);   
+}
+
+
+img 
+{
+   max-width: 550px;
+   max-height: 450px;
+}
+
+ .list-style ul
+{
+    color: rgb(77, 51, 4);   
+    list-style-position: inside;  
+}
+
+#list-style 
+{
+    list-style-position: inside; 
+}
+
+
+.hob
+{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    padding-bottom: 40px;
+}
+
+.skills
+{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+#list-style 
+{
+    list-style-position: inside; 
+}
+
+
+
+
+.skills
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.hob
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+

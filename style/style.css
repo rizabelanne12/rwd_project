@@ -1,0 +1,125 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: cursive;
+    line-height: 1.5em;
+}
+
+body
+{
+   background-image: url(../images/sunset2.png);
+   background-size:auto;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: static;
+  
+}
+
+
+
+/* navigation bar */
+
+.navbar
+{
+   background-image: linear-gradient(to bottom left, rgba(0, 0, 19, 0.804) , rgb(0, 8, 24));
+   background-size: contain;
+   font-size: 25px;
+
+   position: relative;
+   top: 0;
+   
+}
+
+.navbar a
+{
+  color: lightsalmon;
+}
+
+
+#logo
+{
+  padding-left: 30px;
+}
+
+.navbar a:hover
+{
+  color: yellow;
+}
+
+
+
+/* footer */
+
+#main-footer {
+  background-image: linear-gradient(to bottom left, rgba(1, 1, 26, 0.804) , rgb(1, 17, 48)) ;
+  text-align: center;
+  color: lightsalmon;
+  padding: 40px;
+  
+
+  position:relative;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.box a
+{
+  
+  text-decoration: none;
+  color: lightcoral;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#main-footer .copyright
+{
+  padding-top: 20px;
+}
+
+.box a:hover 
+{
+  text-decoration: solid;
+  color:rgb(233, 198, 0);
+}
+
+.box  i:hover
+{
+  text-decoration: solid;
+  color: aqua;
+}
+
+
+/* index */
+/* content */
+
+
+.home .mepic img
+{
+  max-height:450px;
+  max-width: 350px;
+  border-radius: 50%;
+  padding-top:10px;
+  
+}
+
+.home
+{
+  padding: 40px 0px 70px 0px;
+}
+
+.home  .homepage 
+{
+  display: flex;
+  align-items: center;
+}
+
+.home img
+{
+   max-width: 500px;
+   height: 560px;
+}

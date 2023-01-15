@@ -1,0 +1,132 @@
+@media (max-width: 540px) 
+{
+    .home img
+  {
+    width: 300px;
+    height: 400px;
+  }
+
+  .aboutme .cityimg img 
+  {
+    width: 250px;
+    height: 250px;
+  }
+
+    .choraleimg img 
+  {
+    width: 250px;
+    height: 250px;
+  }
+
+   /* Skills part2 */
+   .skillsimg img 
+   {
+       width: 450px;
+       height: 250px;
+   }
+
+   .hobimg img 
+   {
+       width: 450px;
+       height: 250px;
+   }
+
+   .skillsimg 
+   {
+       display: flex;
+       justify-content: center;
+   }
+
+   .hobimg
+   {
+       display: flex;
+       justify-content: center;
+   }
+   
+   .hob
+   {
+       text-align: left;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-right: 20px;
+   }
+
+   .skills
+   {
+       text-align: left;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-left: 10px;
+   }
+
+   .careerimg img 
+   {
+       width: 330px;
+       height: 330px;
+       padding: 20px;
+   }
+
+   
+}
+
+@media (max-width: 360px) 
+{
+  .careerimg img 
+  {
+      width: 290px;
+      height: 300px;
+  }
+
+}
+
+@media (max-width: 280px) 
+{
+  .careerimg img 
+  {
+      width: 250px;
+      height: 250px;
+  }
+
+  .skillsimg img 
+  {
+      width:  250px;
+      height: 250px;
+  }
+
+  .hobimg img 
+  {
+      width: 250px;
+      height: 250px;
+  }
+
+    .ageimg img 
+  {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 30%;
+  }
+}
+
+
+@media (max-width: 912px) 
+{
+    .eduback
+  {
+      padding: 100px 30px 90px 20px;
+  }
+
+      .chorale h1 
+    {
+      color: rgb(54, 53, 53);
+    }
+
+    .chorale span
+    {
+      color: rgb(224, 187, 1);
+    }
+}
+
